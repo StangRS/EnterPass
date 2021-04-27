@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C199885263892520076337B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C199884263892520076337B /* AppDelegate.swift */; };
+		5C199887263892520076337B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C199886263892520076337B /* SceneDelegate.swift */; };
+		5C199889263892520076337B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C199888263892520076337B /* ViewController.swift */; };
+		5C19988C263892520076337B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C19988A263892520076337B /* Main.storyboard */; };
+		5C19988F263892520076337B /* EnterPass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C19988D263892520076337B /* EnterPass.xcdatamodeld */; };
+		5C199891263892580076337B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C199890263892580076337B /* Assets.xcassets */; };
+		5C199894263892580076337B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C199892263892580076337B /* LaunchScreen.storyboard */; };
+		5C19989F263892590076337B /* EnterPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C19989E263892590076337B /* EnterPassTests.swift */; };
+		5C1998AA263892590076337B /* EnterPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1998A9263892590076337B /* EnterPassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C19989B263892580076337B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C199879263892510076337B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C199880263892520076337B;
+			remoteInfo = EnterPass;
+		};
+		5C1998A6263892590076337B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C199879263892510076337B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C199880263892520076337B;
+			remoteInfo = EnterPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C199881263892520076337B /* EnterPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C199884263892520076337B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C199886263892520076337B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C199888263892520076337B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C19988B263892520076337B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C19988E263892520076337B /* EnterPass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnterPass.xcdatamodel; sourceTree = "<group>"; };
+		5C199890263892580076337B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C199893263892580076337B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C199895263892580076337B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C19989A263892580076337B /* EnterPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C19989E263892590076337B /* EnterPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPassTests.swift; sourceTree = "<group>"; };
+		5C1998A0263892590076337B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1998A5263892590076337B /* EnterPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1998A9263892590076337B /* EnterPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPassUITests.swift; sourceTree = "<group>"; };
+		5C1998AB263892590076337B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C19987E263892520076337B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C199897263892580076337B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1998A2263892590076337B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C199878263892510076337B = {
+			isa = PBXGroup;
+			children = (
+				5C199883263892520076337B /* EnterPass */,
+				5C19989D263892590076337B /* EnterPassTests */,
+				5C1998A8263892590076337B /* EnterPassUITests */,
+				5C199882263892520076337B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C199882263892520076337B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C199881263892520076337B /* EnterPass.app */,
+				5C19989A263892580076337B /* EnterPassTests.xctest */,
+				5C1998A5263892590076337B /* EnterPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C199883263892520076337B /* EnterPass */ = {
+			isa = PBXGroup;
+			children = (
+				5C199884263892520076337B /* AppDelegate.swift */,
+				5C199886263892520076337B /* SceneDelegate.swift */,
+				5C199888263892520076337B /* ViewController.swift */,
+				5C19988A263892520076337B /* Main.storyboard */,
+				5C199890263892580076337B /* Assets.xcassets */,
+				5C199892263892580076337B /* LaunchScreen.storyboard */,
+				5C199895263892580076337B /* Info.plist */,
+				5C19988D263892520076337B /* EnterPass.xcdatamodeld */,
+			);
+			path = EnterPass;
+			sourceTree = "<group>";
+		};
+		5C19989D263892590076337B /* EnterPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C19989E263892590076337B /* EnterPassTests.swift */,
+				5C1998A0263892590076337B /* Info.plist */,
+			);
+			path = EnterPassTests;
+			sourceTree = "<group>";
+		};
+		5C1998A8263892590076337B /* EnterPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1998A9263892590076337B /* EnterPassUITests.swift */,
+				5C1998AB263892590076337B /* Info.plist */,
+			);
+			path = EnterPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C199880263892520076337B /* EnterPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1998AE263892590076337B /* Build configuration list for PBXNativeTarget "EnterPass" */;
+			buildPhases = (
+				5C19987D263892520076337B /* Sources */,
+				5C19987E263892520076337B /* Frameworks */,
+				5C19987F263892520076337B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnterPass;
+			productName = EnterPass;
+			productReference = 5C199881263892520076337B /* EnterPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C199899263892580076337B /* EnterPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1998B1263892590076337B /* Build configuration list for PBXNativeTarget "EnterPassTests" */;
+			buildPhases = (
+				5C199896263892580076337B /* Sources */,
+				5C199897263892580076337B /* Frameworks */,
+				5C199898263892580076337B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C19989C263892580076337B /* PBXTargetDependency */,
+			);
+			name = EnterPassTests;
+			productName = EnterPassTests;
+			productReference = 5C19989A263892580076337B /* EnterPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1998A4263892590076337B /* EnterPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1998B4263892590076337B /* Build configuration list for PBXNativeTarget "EnterPassUITests" */;
+			buildPhases = (
+				5C1998A1263892590076337B /* Sources */,
+				5C1998A2263892590076337B /* Frameworks */,
+				5C1998A3263892590076337B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1998A7263892590076337B /* PBXTargetDependency */,
+			);
+			name = EnterPassUITests;
+			productName = EnterPassUITests;
+			productReference = 5C1998A5263892590076337B /* EnterPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C199879263892510076337B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5C199880263892520076337B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5C199899263892580076337B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5C199880263892520076337B;
+					};
+					5C1998A4263892590076337B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5C199880263892520076337B;
+					};
+				};
+			};
+			buildConfigurationList = 5C19987C263892510076337B /* Build configuration list for PBXProject "EnterPass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C199878263892510076337B;
+			productRefGroup = 5C199882263892520076337B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C199880263892520076337B /* EnterPass */,
+				5C199899263892580076337B /* EnterPassTests */,
+				5C1998A4263892590076337B /* EnterPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C19987F263892520076337B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C199894263892580076337B /* LaunchScreen.storyboard in Resources */,
+				5C199891263892580076337B /* Assets.xcassets in Resources */,
+				5C19988C263892520076337B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C199898263892580076337B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1998A3263892590076337B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C19987D263892520076337B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C199889263892520076337B /* ViewController.swift in Sources */,
+				5C199885263892520076337B /* AppDelegate.swift in Sources */,
+				5C199887263892520076337B /* SceneDelegate.swift in Sources */,
+				5C19988F263892520076337B /* EnterPass.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C199896263892580076337B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C19989F263892590076337B /* EnterPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1998A1263892590076337B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1998AA263892590076337B /* EnterPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C19989C263892580076337B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C199880263892520076337B /* EnterPass */;
+			targetProxy = 5C19989B263892580076337B /* PBXContainerItemProxy */;
+		};
+		5C1998A7263892590076337B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C199880263892520076337B /* EnterPass */;
+			targetProxy = 5C1998A6263892590076337B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C19988A263892520076337B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C19988B263892520076337B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C199892263892580076337B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C199893263892580076337B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1998AC263892590076337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C1998AD263892590076337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1998AF263892590076337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WWC6M52CF;
+				INFOPLIST_FILE = EnterPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Stang.EnterPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C1998B0263892590076337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WWC6M52CF;
+				INFOPLIST_FILE = EnterPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Stang.EnterPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C1998B2263892590076337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WWC6M52CF;
+				INFOPLIST_FILE = EnterPassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Stang.EnterPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnterPass.app/EnterPass";
+			};
+			name = Debug;
+		};
+		5C1998B3263892590076337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WWC6M52CF;
+				INFOPLIST_FILE = EnterPassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Stang.EnterPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnterPass.app/EnterPass";
+			};
+			name = Release;
+		};
+		5C1998B5263892590076337B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WWC6M52CF;
+				INFOPLIST_FILE = EnterPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Stang.EnterPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnterPass;
+			};
+			name = Debug;
+		};
+		5C1998B6263892590076337B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WWC6M52CF;
+				INFOPLIST_FILE = EnterPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Stang.EnterPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnterPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C19987C263892510076337B /* Build configuration list for PBXProject "EnterPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1998AC263892590076337B /* Debug */,
+				5C1998AD263892590076337B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1998AE263892590076337B /* Build configuration list for PBXNativeTarget "EnterPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1998AF263892590076337B /* Debug */,
+				5C1998B0263892590076337B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1998B1263892590076337B /* Build configuration list for PBXNativeTarget "EnterPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1998B2263892590076337B /* Debug */,
+				5C1998B3263892590076337B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1998B4263892590076337B /* Build configuration list for PBXNativeTarget "EnterPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1998B5263892590076337B /* Debug */,
+				5C1998B6263892590076337B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C19988D263892520076337B /* EnterPass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C19988E263892520076337B /* EnterPass.xcdatamodel */,
+			);
+			currentVersion = 5C19988E263892520076337B /* EnterPass.xcdatamodel */;
+			path = EnterPass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C199879263892510076337B /* Project object */;
+}
